@@ -34,7 +34,7 @@ def main():
                 treehight = compute_height(num,list(map(int,tree)))
                 print(treehight)
     elif "I" in text:
-        num = int(input())
+        num = int(input().strip())
         tree = input().split()
         treehight = compute_height(num,list(map(int,tree)))
         print(treehight)
